@@ -2,7 +2,7 @@
 
 This is an open source e-commerce jetpack build with everything new in Next.js 14. It is bootstrapped with `create-t3-app`.
 
-[![Jetpack](./public/images/screenshot.png)](https://tryjetpack.dev/)
+[![Jetpack](./public/images/jetpack-logo.png)](https://tryjetpack.dev/)
 
 > **Warning**
 > This project is still in development and is not ready for production use.
@@ -25,7 +25,7 @@ This is an open source e-commerce jetpack build with everything new in Next.js 1
 - [x] Database with **Supabase**
 - [x] ORM using **Drizzle ORM**
 - [x] Authentication with **Clerk**
-- [x] Email**Resend**
+- [x] Email with **Resend**
 - [x] Validation with **Zod**
 - [x] CI starter with Github Actions
 

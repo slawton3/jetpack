@@ -60,6 +60,11 @@ export const siteConfig = {
           href: "https://ui.shadcn.com",
           external: true,
         },
+        {
+          title: "T3 Stack",
+          href: "https://create.t3.gg/",
+          external: true,
+        },
       ],
     },
     {
