@@ -3,8 +3,6 @@ import { ImageResponse } from "next/og";
 import { cn } from "@/lib/utils";
 import { ogImageSchema } from "@/lib/validations/og";
 
-export const runtime = "edge";
-
 export async function GET(req: Request) {
   try {
     const calSemiBoldData = await fetch(
