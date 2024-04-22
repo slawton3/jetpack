@@ -28,7 +28,7 @@ jobs:
         with:
           bun-version: ${{ matrix.bun-version }}
 
-      - run: HUSKY=0 npm ci
+      - run: HUSKY=0 bun install --frozen-lockfile
 
       - name: Release
         env:
