@@ -1,13 +1,13 @@
 # [Jetpack](https://tryjetpack.dev)
 
-This is an open source e-commerce jetpack build with everything new in Next.js 14. It is bootstrapped with `create-t3-app`.
+This is an open source starter template for Next.js applications.
 
 [![Jetpack](./public/images/jetpack-logo.png)](https://tryjetpack.dev/)
 
-> **Warning**
-> This project is still in development and is not ready for production use.
+> **Important note**
+> The project is set up to use Docker, however an existing issue with Bun prevents the container from running. Please see https://github.com/oven-sh/bun/issues/5648 for more details. For now, the project is deployed with [Vercel](https://vercel.com).
 >
-> It uses new technologies (drizzle ORM) which are subject to change and may break your application.
+> This project is still in development and contributions are welcome!
 
 ## Tech Stack
 
@@ -34,6 +34,8 @@ This is an open source e-commerce jetpack build with everything new in Next.js 1
 - [ ] Payments with **Stripe Checkout**
 - [ ] User management
 - [ ] Admin dashboard
+- [ ] Notifications
+- [ ] Protected routes
 
 ## Running Locally
 
