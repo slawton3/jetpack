@@ -21,6 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # necessary for bunx semantic-release to work see https://github.com/semantic-release/semantic-release/pull/2982#issuecomment-1740250303
       - uses: actions/setup-node@v4
         with:
           node-version: 20.8.1
