@@ -10,10 +10,6 @@ on:
 
 jobs:
   release:
-    strategy:
-      matrix:
-        bun-version: [1.x]
-
     name: Create a new release
     runs-on: ubuntu-latest
 
@@ -26,7 +22,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: oven-sh/setup-bun@v1
         with:
-          bun-version: ${{ matrix.bun-version }}
+          bun-version: latest
 
       - run: HUSKY=0 bun install --frozen-lockfile
 
