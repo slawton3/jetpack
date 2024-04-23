@@ -29,13 +29,18 @@ This is an open source starter template for Next.js applications.
 - [x] Validation with **Zod**
 - [x] CI starter with Github Actions
 
+## Roadmap
+
+- [ ] Markdown blog
+- [ ] Protected routes
+
 ## Pro (coming soon)
 
 - [ ] Payments with **Stripe Checkout**
 - [ ] User management
 - [ ] Admin dashboard
 - [ ] Notifications
-- [ ] Protected routes
+- [ ] LLM Integrations
 
 ## Running Locally
 
