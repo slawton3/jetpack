@@ -5,7 +5,15 @@ import Link from "next/link";
 import * as React from "react";
 
 import { Icons } from "@/components/icons";
-import { NavigationMenuLink } from "@/components/ui/navigation-menu";
+import {
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+  navigationMenuTriggerStyle,
+} from "@/components/ui/navigation-menu";
 import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
 
@@ -23,7 +31,7 @@ export function MainNav({ items }: MainNavProps) {
         </span>
         <span className="sr-only">Home</span>
       </Link>
-      {/* <NavigationMenu>
+      <NavigationMenu>
         <NavigationMenuList>
           {items?.[0]?.items ? (
             <NavigationMenuItem>
@@ -99,7 +107,7 @@ export function MainNav({ items }: MainNavProps) {
               ),
             )}
         </NavigationMenuList>
-      </NavigationMenu> */}
+      </NavigationMenu>
     </div>
   );
 }

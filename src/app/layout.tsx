@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   authors: [
     {
       name: "Sean Lawton",
-      url: "https://www.ezvoice.io",
+      url: "https://www.tryjetpack.dev",
     },
   ],
   creator: "Sean Lawton",

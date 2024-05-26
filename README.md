@@ -1,8 +1,8 @@
-# [ezVoice](https://ezvoice.io)
+# [Jetpack](https://tryjetpack.dev)
 
 This is an open source starter template for Next.js applications.
 
-[![ezVoice](./public/images/ezvoice-logo.png)](https://ezvoice.io/)
+[![Jetpack](./public/images/jetpack-logo.png)](https://tryjetpack.dev/)
 
 > **Important note**
 > The project is set up to use Docker, however an existing issue with Bun prevents the container from running. Please see https://github.com/oven-sh/bun/issues/5648 for more details. For now, the project is deployed with [Vercel](https://vercel.com).
@@ -47,7 +47,7 @@ This is an open source starter template for Next.js applications.
 1. Clone the repository
 
    ```bash
-   git clone https://github.com/slawton3/ezvoice.git
+   git clone https://github.com/slawton3/jetpack.git
    ```
 
 2. Install dependencies using pnpm
@@ -87,8 +87,8 @@ Contributions are welcome! Please open an issue if you have any questions or sug
 Thanks goes to these wonderful people for their contributions:
 
 <p align="center">
- <a href="https://github.com/slawton3/ezvoice/graphs/contributors">
-   <img src="https://contrib.rocks/image?repo=slawton3/ezvoice" />
+ <a href="https://github.com/slawton3/jetpack/graphs/contributors">
+   <img src="https://contrib.rocks/image?repo=slawton3/jetpack" />
  </a>
 </p>
 

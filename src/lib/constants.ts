@@ -10,4 +10,4 @@ export const redirects = {
   afterVerify: "/dashboard",
 } as const;
 
-export const dbPrefix = "ezvoice";
+export const dbPrefix = "jetpack";
