@@ -14,7 +14,7 @@ export function MainSkeleton() {
         <Skeleton className="h-7 w-44" />
         <h1 className="text-balance font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl">
           Boost your productivity with{" "}
-          <span className="text-primary">Jetpack</span>
+          <span className="text-primary">ezVoice</span>
         </h1>
         <p className="max-w-2xl text-balance leading-normal text-muted-foreground sm:text-xl sm:leading-8">
           Turbocharge your development with a modern, typesafe Next.js template

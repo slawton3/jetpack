@@ -4,17 +4,17 @@ export type SiteConfig = typeof siteConfig;
 
 const links = {
   x: "https://twitter.com/snlwtn",
-  github: "https://github.com/slawton3/jetpack",
+  github: "https://github.com/slawton3/ezvoice",
   githubAccount: "https://github.com/slawton3",
   calDotCom: "https://cal.com/seanlawton",
 };
 
 export const siteConfig = {
-  name: "Jetpack",
+  name: "ezVoice",
   description:
-    "Jetpack is an open source Next.js 14 starter template configured for Bun, Shadcn, Supabase and Drizzle including Docker, Clerk, TypeScript, ESLint, Prettier, and more.",
-  url: "https://tryjetpack.dev",
-  ogImage: "https://tryjetpack.dev/opengraph-image.png",
+    "ezVoice a custom invoice template creation platform for integrating with QuickBooks Online, Xero, and other accounting software.",
+  url: "https://ezvoice.io",
+  ogImage: "https://ezvoice.io/opengraph-image.png",
   links,
   mainNav: [
     {
@@ -23,7 +23,7 @@ export const siteConfig = {
         {
           title: "Technology",
           href: "/tech",
-          description: "All the tech used in Jetpack.",
+          description: "All the tech used in ezVoice.",
           items: [],
         },
         {
@@ -46,8 +46,8 @@ export const siteConfig = {
       title: "Credits",
       items: [
         {
-          title: "Jetpack",
-          href: "https://tryjetpack.dev",
+          title: "ezVoice",
+          href: "https://ezvoice.io",
           external: true,
         },
         {

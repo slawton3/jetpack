@@ -1,7 +1,5 @@
 import * as React from "react";
 
-import { getGithubStars } from "@/lib/actions/github";
-
 import { Main } from "./_components/main";
 import { MainSkeleton } from "./_components/main-skeleton";
 
@@ -12,11 +10,10 @@ export default function IndexPage() {
    * @see https://www.youtube.com/shorts/A7GGjutZxrs
    * @see https://nextjs.org/docs/app/building-your-application/data-fetching/patterns#parallel-data-fetching
    */
-  const githubStarsPromise = getGithubStars();
 
   return (
     <React.Suspense fallback={<MainSkeleton />}>
-      <Main githubStarsPromise={githubStarsPromise} />
+      <Main />
     </React.Suspense>
   );
 }
